@@ -1,17 +1,14 @@
  
  export const Tablee=()=>{
     return(
-        <table style= {{ 
-            border:'1px solid black',
-
-        }}>  
+        <table >  
             
             <tr>  
 
-                <th style={{border:"2px solid black"}} >s.no</th>
-                <th style={{border:"2px solid black"}}>name</th> 
-                <th style={{border:"2px solid black"}}>phone </th>
-                <th style={{border:"2px solid black"}}> address</th>
+                <th  >s.no</th>
+                <th >name</th> 
+                <th >phone </th>
+                <th> address</th>
             </tr> 
             <tr>
                  <td>1</td> 
@@ -36,4 +33,15 @@
             
         </table>
     )
- }
+ } 
+
+
+ let a="mangoes" 
+  let b="apple"
+  export const  Mangoe=()=>{
+    return(
+        <div>
+            <h1>i like {a} and {b}</h1>
+        </div>
+    )
+  }

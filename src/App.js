@@ -1,10 +1,23 @@
 
-import './App.css'; 
+// import './App.css'; 
 import { Sia } from './components/Button/Buttons.js';
  
 import {ItemsList} from "./components/form/Forms.js"  
-import {Tablee} from "./components/table/Tables.js"  
-import {Cds} from "./card/cards.js"
+import {Tablee , Mangoe} from "./components/table/Tables.js"  
+import {Cds} from "./card/cards.js" 
+import {IplTeams} from "./propes/Firstcomponent.js" 
+import {Hello} from "./propes/Secondcomponent.js" 
+import { State} from "./propes/Secondcomponent.js"
+
+import './components/Button/Button.css'
+
+
+
+let user={
+  name:"shiva",
+  area:"dilsunagar",
+  phone:"9849501022"
+}
 
 
     const Hen=()=>{
@@ -26,23 +39,49 @@ import {Cds} from "./card/cards.js"
        </ItemsList> 
        <Sia></Sia> 
       <br></br> 
-    </div>  
+    </div>   
 
 
     <div align='center' style={{
       marginTop:'30px'
     }} >
-      <Tablee></Tablee>
+      <Tablee></Tablee> 
 
-    </div>  
+      <Mangoe></Mangoe>
+
+    </div>   
 
 
-       <div align='center'>
+        <div align='center'>
         
         <Cds></Cds>
-       </div>
+       </div>  
 
-    </div>
+        <div>
+       <Mangoe></Mangoe>
+       </div> 
+       
+
+        <div>
+      <IplTeams></IplTeams>
+       </div>  
+
+       <div>
+        <Hello name={user.name}/> 
+        <Hello name={user.area}/>
+        <Hello name={user.phone}/>
+       </div> 
+       <div>
+        <Hello person={user}/> 
+       
+       </div> 
+
+       {/* <div>
+        < State/>
+       </div> */}
+
+    </div> 
+    
     
 
   )

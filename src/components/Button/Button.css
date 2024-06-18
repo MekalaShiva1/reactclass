@@ -1,0 +1,41 @@
+button{
+    background-color: rgb(242, 195, 23); 
+    height: 30px;
+    width: 100px;
+}
+
+/* .submit{ 
+    background-color: rgb(23, 30, 242); 
+    height: 25px;
+    
+}  */
+ 
+
+table{
+    border: 1px solid red; 
+    height: 50px;
+    width: auto;
+}
+table tr th{
+    border:1px solid black; 
+    font-size: 20px;
+    /* background-color: blueviolet; */
+} 
+table tr td{
+    border: 1px solid black; 
+    font-size: 30px;
+} 
+
+
+
+.ipl{
+    color: brown; 
+    text-align: center; 
+    font-size: 30px;
+} 
+
+.players{
+    color: chartreuse; 
+    text-align: center;
+} 
+
