@@ -1,27 +1,16 @@
 // import 'Button.css'
-export const Sia=()=>{
+export const Sia=(prop)=>{ 
+    const {text, onPress, bgColor,width,height }=prop
     return(
-        <div  >
-            <button className="submit" > 
-                SUBMIT  
+    
+            <button  style={{width:width, 
+             backgroundColor:bgColor, text:text,
+            height:height , onClick:onPress}} > 
+                {text}  
             </button>
-        </div>
+        
     )
 }   
 
 
 
-// style={{
-//     height:'100px',
-//     width:'150px'
-// }}
-
-
-
-// style={{ 
-//     height:'25px',
-//     width:'100px' ,
-//  marginTop:'10px',
-//  backgroundColor:'red'
-
-// }}
