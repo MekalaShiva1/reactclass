@@ -18,7 +18,7 @@
             </tr> 
 
             <tr>
-                 <td>2</td> 
+                 <td> 2</td> 
                  <td>vijay</td>
                  <td>98xxxxx33</td>
                  <td>hyderabad</td>

@@ -1,8 +1,21 @@
-button{
-    background-color: rgb(242, 195, 23); 
-    height: 30px;
-    width: 100px;
-}
+
+
+/* button{
+    /* background-color: rgb(242, 195, 23);  */
+    /* height: 30px;
+    width: 130px;
+}  */
+
+/* .Classcompbtn{ 
+    margin-top: 30px;
+    background-color: aqua;  
+    justify-items: center;  */
+    
+/* } 
+alert {
+    font-size: 50px; 
+    color: blue;
+} */ */
 
 /* .submit{ 
     background-color: rgb(23, 30, 242); 
@@ -28,7 +41,7 @@ table tr td{
 
 
 
-.ipl{
+/* .ipl{
     color: brown; 
     text-align: center; 
     font-size: 30px;
@@ -37,5 +50,10 @@ table tr td{
 .players{
     color: chartreuse; 
     text-align: center;
-} 
+}  */
 
+.btn{
+    height: 50px;
+    width: 200px;
+    /* background-color: blue; */
+}

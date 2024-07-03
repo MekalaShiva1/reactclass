@@ -12,15 +12,24 @@ import { State} from "./propes/Secondcomponent.js"
 import './components/Button/Button.css'
 import { FakeData } from './propes/Thirdcomponent.js'; 
 import {ImgeComponent} from './propes/image.js' 
-import{Btnss} from"./propes/tryb.js"
+import{Btnss} from"./propes/tryb.js" 
+
+import{ClassComponentButton , ButtonCls} from "./components/ClassComponents/Button/ClssCmpntButton.js"  
+import {TodoClass} from "./components/ClassComponents/Todo.js" 
+import {Productlist} from "./components/ClassComponents/API/FetchAPI.js" 
+import{UseStateExample} from "./components/FunctionalHooks/Usestate.js" 
+import { TodosClass } from './components/FunctionalHooks/Todos.js'; 
+import { Forms} from "./Forms/Uncontroll/Uncforms.js"
 
 
 
-let user={
-  name:"shiva",
-  area:"dilsunagar",
-  phone:"9849501022"
-}
+
+
+// let user={
+//   name:"shiva",
+//   area:"dilsunagar",
+//   phone:"9849501022"
+// }
 
 
     const Hen=()=>{
@@ -28,7 +37,7 @@ let user={
     <div> 
 
     
-    <div> 
+    {/* <div> 
 
       <h1>Application form</h1> 
        
@@ -36,32 +45,32 @@ let user={
        </ItemsList> 
        <Sia></Sia> 
       <br></br> 
-    </div>   
+    </div>    */}
 
 
-    <div align='center' style={{
+    {/* <div align='center' style={{
       marginTop:'30px'
     }} >
       <Tablee></Tablee> 
 
       <Mangoe></Mangoe>
 
-    </div>   
+    </div>    */}
 
 
-        <div align='center'>
+        {/* <div align='center'>
         
         <Cds></Cds>
-       </div>  
+       </div>   */}
 
         {/* <div>
        <Mangoe></Mangoe>
        </div>  */}
        
 
-        <div>
+        {/* <div>
       <IplTeams></IplTeams>
-       </div>  
+       </div>   */}
 
        {/* <div>
         <Hello name={user.name}/> 
@@ -79,7 +88,7 @@ let user={
 
 
        
-    <div>
+    {/* <div>
       {FakeData.map((eachproduct)=>{ 
 
         return( 
@@ -101,11 +110,38 @@ let user={
 
 
       
-    </div>  
-    <div>
+    </div>   */}
+    <div> 
+      {/* <ClassComponentButton/>  */}
+      {/* <ButtonCls/> */}
       
+      
+    </div> 
+
+    {/* <div>
+      <TodoClass/>
+    </div>  */}
+
+    {/* <div>
+      <Productlist/>
+    </div> */} 
+
+     <div>
+      {/* <UseStateExample/> */}
+    </div> 
+     <div>
+     {/* <TodosClass/> */}
+     </div> 
+
+
+    {/* <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1> */}
+  
+
+    <div>
+      < Forms/>
     </div>
-    
 
     </div>  
 

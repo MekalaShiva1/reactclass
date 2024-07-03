@@ -7,8 +7,9 @@ export const Btnss = (prop) => {
         backgroundColor: bgColor,
         height: height,
         width: width,
-        onClick: onPress,
+        
       }}
+      onClick={onPress}
     >
       {text}
     </button>
