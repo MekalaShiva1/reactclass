@@ -1,5 +1,6 @@
 
-// import './App.css'; 
+// import './App.css';  
+// import './screens/Styles.css'
 import { Sia } from './components/Button/Buttons.js';
  
 import {ItemsList} from "./components/form/Forms.js"  
@@ -9,7 +10,7 @@ import {IplTeams} from "./propes/Firstcomponent.js"
 // import {Hello} from "./propes/Secondcomponent.js" 
 import { State} from "./propes/Secondcomponent.js"
 
-import './components/Button/Button.css'
+// import './components/Button/Button.css'
 import { FakeData } from './propes/Thirdcomponent.js'; 
 import {ImgeComponent} from './propes/image.js' 
 import{Btnss} from"./propes/tryb.js" 
@@ -19,7 +20,11 @@ import {TodoClass} from "./components/ClassComponents/Todo.js"
 import {Productlist} from "./components/ClassComponents/API/FetchAPI.js" 
 import{UseStateExample} from "./components/FunctionalHooks/Usestate.js" 
 import { TodosClass } from './components/FunctionalHooks/Todos.js'; 
-import { Forms} from "./Forms/Uncontroll/Uncforms.js"
+import { Forms} from "./Forms/Uncontroll/Uncforms.js" 
+import{Controlled} from "./Forms/Uncontroll/Controlled.js"
+import ChildrenProp from './components/children.js'; 
+import{Stack} from "./Navigation/Stack.js"
+import { BrowserRouter } from 'react-router-dom';
 
 
 
@@ -140,7 +145,14 @@ import { Forms} from "./Forms/Uncontroll/Uncforms.js"
   
 
     <div>
-      < Forms/>
+      {/* < Forms/>  */}
+      {/* <Controlled/> */} 
+      {/* <BrowserRouter> */}
+      
+      <Stack/>
+      {/* </BrowserRouter> */}
+        
+        
     </div>
 
     </div>  
