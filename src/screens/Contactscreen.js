@@ -20,8 +20,8 @@ function Contactscreen() {
             
             
            
-            <Link to={"Orders"}>Places order</Link> <br></br>
-            <Link to={"Places"}>Visited Orders</Link>
+            <Link to={"/Orders"}>Places order</Link> <br></br>
+            <Link to={"/Places"}>Visited Orders</Link>
           
             
              

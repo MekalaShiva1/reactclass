@@ -3,7 +3,9 @@
 
 
 import React from 'react' 
-import Navbar from './Navbar/Navbar';
+import Navbar from './Navbar/Navbar'; 
+import UseEffectex1 from '../useEffect/UseEffectex1';
+
 
 function Aboutscreen() {
     return ( 
@@ -12,7 +14,8 @@ function Aboutscreen() {
             <Navbar/>
             <h1>
             About screen 
-            </h1>
+            </h1> 
+            <UseEffectex1/>
 
         </div>
     )

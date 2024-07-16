@@ -6,7 +6,8 @@ import Aboutscreen from "../screens/Aboutscreen";
 import Settingscreen from "../screens/Settingscreen";
 import Invalidscreen from "../screens/Invalidscreen";
 import Orders from "../screens/Orders";
-import Places from "../screens/Places";
+import Places from "../screens/Places"; 
+// const Lazysetting=React.lazy(()=>import (../screens/Settingscreen));
 
 export function Stack() {
   return (
@@ -16,9 +17,9 @@ export function Stack() {
         <Route path="/homescreen" element={<Homescreen />} />
         <Route path="/Contactscreen" element={<Contactscreen />} />
         <Route path="/Aboutscreen" element={<Aboutscreen />} />
-        <Route path="/Settingscreen" element={<Settingscreen />} />
-         <Route path="Orders" element={<Orders />} />
-         <Route path="Places" element={<Places />} />
+        <Route path="/Settingscreen" element={ <Settingscreen />} />
+         <Route path="/Orders" element={<Orders />} />
+         <Route path="/Places" element={<Places />} />
         <Route path="*" element={<Invalidscreen />} />
       </Routes> 
       </BrowserRouter>

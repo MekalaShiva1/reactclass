@@ -3,9 +3,9 @@ import React from 'react'
 function Places() {
     return ( 
         <div>
-            <h3>
+            <h1>
                 Visited Placess
-            </h3>
+            </h1>
         </div>
         
     )

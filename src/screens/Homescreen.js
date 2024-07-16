@@ -11,7 +11,8 @@ function Homescreen() {
     const fetchData= async ()=>{
         const response = await axios.get("https://fakestoreapi.com/products/") 
         if(response.status===200){
-            setdata(response.data);
+            setdata(response.data); 
+            console.log(setdata)
         }
     }
     return ( 
@@ -21,7 +22,8 @@ function Homescreen() {
             <h1>
             Home screen 
             </h1> 
-            <button onClick={fetchData}> Product list</button> 
+            <button onClick={fetchData}> Product list</button>  
+
             {
                 data.length>0?( 
                     <>
